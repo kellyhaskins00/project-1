@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,10 +16,37 @@
     <script src="assets/javascript/app.js"></script>
 
     <!--Link to Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
 
 </head>
+
 <body>
-    
+        <div class="container-fluid">
+
+                <div class="container-fluid" id="main-background">
+                    <div class="container">
+                        <div id="logo"><img src="assets/images/logo-1.png" id="help"></div>
+                        <div class="input-group mb-3" id="search">
+                                <input type="text" class="form-control" placeholder="Location" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <div class="input-group-append">
+                                  <button class="btn btn-danger" type="button" id="button-addon2">Search</button>
+                                </div>
+                            </div>
+                              </div>
+                      </div>
+
+                      <div class="card" style="width: 18rem;" id="map">
+                            <div class="card-body">
+                            </div>
+                          </div>
+
+
+              </div>
+
+<!--Link to Google Api-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBi0suApwCPQd0gmmSeEVsfd7RVXaiIthM&callback=initMap"
+   async defer></script>
+
 </body>
 </html>
