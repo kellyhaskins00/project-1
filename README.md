@@ -1,2 +1,2 @@
 # project-1
-this will be our awesome project
+adding the yelp api to our app
