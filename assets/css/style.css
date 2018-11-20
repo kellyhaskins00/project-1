@@ -1,0 +1,29 @@
+#bg-img {
+    background-image: url('https://images.pexels.com/photos/589062/pexels-photo-589062.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-position: center; 
+    height: 600px;
+    width: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#search {
+    padding-top: 45px;
+}
+
+#logo {
+    padding-top: 150px;
+    text-align: center;
+}
+
+#help {
+    height: 85px;
+    width: auto;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 25px;
+    float: right;
+}
