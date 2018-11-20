@@ -1,11 +1,14 @@
-#main-background {
-    background-image: url("https://www.tesa.com/en/files/images/201805/1/tesa-smooz-mood-16-9,730722_crop2x1_12.jpg");
-    height: 500px;
+#bg-img {
+    background-image: url('https://images.pexels.com/photos/589062/pexels-photo-589062.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-position: center; 
+    height: 600px;
     width: auto;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #search {
-    padding-top: 15px;
+    padding-top: 45px;
 }
 
 #logo {
@@ -14,7 +17,7 @@
 }
 
 #help {
-    height: 95px;
+    height: 85px;
     width: auto;
 }
 
