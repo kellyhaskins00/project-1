@@ -1,10 +1,6 @@
 #bg-img {
-    background-image: url('https://images.pexels.com/photos/589062/pexels-photo-589062.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
-    background-position: center; 
-    height: 600px;
-    width: auto;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: royalblue;
+    height: 1000px;
 }
 
 #search {
@@ -12,18 +8,201 @@
 }
 
 #logo {
-    padding-top: 150px;
+    padding-top: 175px;
     text-align: center;
 }
 
 #help {
-    height: 85px;
+    height: 175px;
     width: auto;
 }
 
 #map {
-    height: 400px;
-    width: 100%;
-    margin-top: 25px;
-    float: right;
+    margin-top: 100px;
+    height: 450px;
+    width: 50%;
+    display: inline-block;
 }
+
+.button {
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* #pac-input {
+    display: none;
+} */
+
+.container-4 input#hyv-search {
+    width: 500px;
+    height: 30px;
+    border: 1px solid #c6c6c6;
+    font-size: 10pt;
+    float: left;
+    padding-left: 15px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    -moz-border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.container-4 button.icon {
+    height: 30px;
+    background: #f0f0f0 url('images/searchicon.png') 10px 1px no-repeat;
+    background-size: 24px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #c6c6c6;
+    width: 50px;
+    margin-left: -44px;
+    color: #4f5b66;
+    font-size: 10pt;
+}
+
+#quote {
+    margin-top: 18px;
+    text-align: center;
+    color: white;
+    font-size: 18pt;
+    /* font-weight: bold; */
+}
+
+#quote1 {
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    font-size: 18pt;
+    /* font-weight: bold; */
+}
+.scrollLink {
+    text-align: center;
+    color: white;
+    font-size: 15pt;
+}
+
+#scroll {
+    text-align: center;
+}
+#anchor1 {
+    text-align: center;
+    background-position: center; 
+    height: 1000px;
+    width: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    background-image: url('../images/toilet-paper-background.jpg')
+}
+
+#pac-input {
+    border-style: none;
+}
+
+#anchor2 {
+    background-color: bisque;
+    height: 1000px;
+    text-align: center;
+}
+
+#mock {
+    text-align: center;
+    margin-top: 50px;
+    display: inline-block;
+    height: 500px;
+    width: auto;
+}
+
+#button-about {
+    border-style: none;
+    font-size: 20pt;
+    color: white;
+    background: royalblue;
+}
+
+#button-addon2 {
+    font-size: 20px;
+}
+
+#plunger {
+    width: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color: royalblue;
+    color:white;
+}
+
+a {
+    color: white;
+    font-size: 15pt;
+}
+
+.navbar-brand {
+    font-size: 25pt;
+    font-family: 'Concert One', cursive;
+}
+
+
+    /* #fly { */
+    
+        
+         /* * Make the initial position to be the center of the circle you want this
+         * object follow. */
+         
+         /* width: 50px;
+         height:50px;
+         background-image: url('../images/fly.png');
+         background-repeat: no-repeat;
+         position: absolute;
+        left: 755px;
+        top: 343px;  */
+    
+        
+         /* * Sets up the animation duration, timing-function (or easing)
+         * and iteration-count. Ensure you use the appropriate vendor-specific 
+         * prefixes as well as the official syntax for now. Remember, tools like 
+         * CSS Please are your friends! */
+         
+        /* -webkit-animation: myOrbit 4s linear infinite; Chrome, Safari 5  */
+           /* -moz-animation: myOrbit 4s linear infinite; Firefox 5-15 */
+             /* -o-animation: myOrbit 4s linear infinite; Opera 12+ */
+                /* animation: myOrbit 4s linear infinite; /*Chrome, Firefox 16+,   */
+                                                          /* IE 10+, Safari 5 */ 
+         
+        
+        
+    /* }  */
+    
+    
+     /* * Set up the keyframes to actually describe the begining and end states of 
+     * the animation.  The browser will interpolate all the frames between these 
+     * points.  Again, remember your vendor-specific prefixes for now! */
+     
+    /* @-webkit-keyframes myOrbit {
+        from { ?-webkit-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+        to   { -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+    }
+    
+    @-moz-keyframes myOrbit {
+        from { -moz-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+        to   { -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+    }
+    
+    @-o-keyframes myOrbit {
+        from { -o-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+        to   { -o-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+    }
+    
+    @keyframes myOrbit {
+        from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+        to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+    }  */

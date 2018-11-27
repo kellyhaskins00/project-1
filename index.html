@@ -2,18 +2,17 @@
 <html>
 
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Project-1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--Link to Stylesheet CSS-->
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-
     <!--Link to Reset Stylesheet CSS-->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+
     <!--Link to Javascript Stylesheet JS-->
-    <script defer src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script defer src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
     <script defer src="assets/javascript/app.js"></script>
 
     <!--Link to Bootstrap-->
@@ -23,34 +22,87 @@
     <!-- Load icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!--Link to Stylesheet CSS-->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+    <!--Link to Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+
+
+        <!-- IE doesn't do CSS3 Animations, so let's put in some JS code to fix. -->
+        
+        <!-- <script type="text/javascript" src="/shared/js/jquery-1.7.2.min.js"></script>    
+        <script type="text/javascript" src="js/transition-circle-ie.js"></script>     -->
+
+
+
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid" id="bg-img">
 
-        <div class="container-fluid" id="bg-img">
-            <div class="container">
-                <div id="logo"><img src="assets/images/logo-1.png" id="help"></div>
-                <div class="input-group mb-3" id="search">
-                    <input type="text" class="form-control" placeholder="Location" aria-label="Recipient's username"
-                        aria-describedby="button-addon2">
-                    <div class="input-group-append">
-                        <button class="btn btn-danger" type="button" id="button-addon2"><i class="fa fa-search"></i></button>
-                    </div>
+        <!-- Image and text -->
+
+
+        <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">help</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Gotta Go!<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About help</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">"Reading Material"</a>
+                    </li>
+                  </ul>
                 </div>
+              </nav>
+
+        <div class="container-fluid">
+            <!-- <div class="container"><div id='fly'></div> -->
+
+                <div id="logo"><img src="assets/images/logo_v1.png" id="help"></div>
+                <br>
+                <p id="quote">Know Where to GO.</p>
+                <div id="scroll"><a href="#anchor1" class="scrollLink"><div class="button"><button class="btn btn-light" type="button" id="button-addon2">Restrooms
+                        Near Me <i class="fa fa-search"></i></button></div></a></div>
             </div>
         </div>
-
-        <div class="card" id="map">
-
-        </div>
-
-
+   
+    <div class="container-fluid" id="anchor1">
+        <input id="pac-input" class="controls" type="text">
+        <div id="map"></div>
+        <div id="scroll"><a href="#anchor2" class="scrollLink"><div class="button"><button class="btn btn-secondary btn-lg" type="button" id="button-about">About help</button></div></a></div>
     </div>
 
+
+<div class="container-fluid" id="anchor2">
+    <img src="assets/images/mock.png" id="mock">
+
+
+</div>
+
+
     <!--Link to Google Api-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBi0suApwCPQd0gmmSeEVsfd7RVXaiIthM&callback=initMap"
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBi0suApwCPQd0gmmSeEVsfd7RVXaiIthM&callback=initMap"
+    async defer></script> -->
+
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBi0suApwCPQd0gmmSeEVsfd7RVXaiIthM"
+    async defer></script> -->
+
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBi0suApwCPQd0gmmSeEVsfd7RVXaiIthM&libraries=places&callback=initMap"
+    async defer></script> -->
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBi0suApwCPQd0gmmSeEVsfd7RVXaiIthM&libraries=places&callback=initAutocomplete"
         async defer></script>
+
+
 
 </body>
 
