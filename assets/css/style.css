@@ -1,10 +1,57 @@
-#bg-img {
-    background-color: royalblue;
-    height: 1000px;
+/*nav*/
+.navbar {
+    overflow: hidden;
+    background-color: whitesmoke;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 1;
 }
 
-#search {
-    padding-top: 45px;
+.navbar a {
+    float: left;
+    display: block;
+    color: #323133;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+#anchor4 {
+    background-color: #323133;
+    height: 1000px;
+    width: auto;
+}
+
+#anchor1 {
+    text-align: center;
+    background-color: #323133;
+    height: 1000px;
+    width: auto;
+}
+
+#anchor2 {
+    background-color: #323133;
+    height: auto;
+    width: auto;
+}
+
+#anchor3 {
+    text-align: center;
+    background-color: #323133;
+    height: auto;
+    width: auto;
+}
+
+#about {
+    background-color: #f3c086;
+    height: 1000px;
+    width: auto;
 }
 
 #logo {
@@ -12,197 +59,235 @@
     text-align: center;
 }
 
+#logo2 {
+    padding-top: 0px;
+    text-align: center;
+    padding-bottom: 55px;
+}
+
 #help {
-    height: 175px;
+    height: 155px;
     width: auto;
 }
 
-#map {
-    margin-top: 100px;
-    height: 450px;
-    width: 50%;
-    display: inline-block;
+#help2 {
+    height: 155px;
+    width: auto;
 }
 
-.button {
-    margin-top: 25px;
+p{
     text-align: center;
 }
-
-/* #pac-input {
-    display: none;
-} */
-
-.container-4 input#hyv-search {
-    width: 500px;
-    height: 30px;
-    border: 1px solid #c6c6c6;
-    font-size: 10pt;
-    float: left;
-    padding-left: 15px;
-    -webkit-border-top-left-radius: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-    -moz-border-top-left-radius: 5px;
-    -moz-border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+#where {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 28px;
+    text-align: center;
+    color: #fdfd97;
+    font-weight: bold;
 }
-.container-4 button.icon {
-    height: 30px;
-    background: #f0f0f0 url('images/searchicon.png') 10px 1px no-repeat;
-    background-size: 24px;
-    -webkit-border-top-right-radius: 5px;
-    -webkit-border-bottom-right-radius: 5px;
-    -moz-border-radius-topright: 5px;
-    -moz-border-radius-bottomright: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border: 1px solid #c6c6c6;
-    width: 50px;
-    margin-left: -44px;
-    color: #4f5b66;
-    font-size: 10pt;
+
+#no {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 28px;
+    text-align: center;
+    color: #fdfd97;
+    font-weight: bold;
 }
 
 #quote {
-    margin-top: 18px;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 28px;
     text-align: center;
     color: white;
-    font-size: 18pt;
-    /* font-weight: bold; */
-}
-
-#quote1 {
-    margin-top: 15px;
-    text-align: center;
-    color: white;
-    font-size: 18pt;
-    /* font-weight: bold; */
-}
-.scrollLink {
-    text-align: center;
-    color: white;
-    font-size: 15pt;
+    font-weight: bold;
 }
 
 #scroll {
     text-align: center;
 }
-#anchor1 {
+#map {
+    margin-top: 55px;
+    height: 450px;
+    width: 450px;
+    display: inline-block;
+}
+
+#map-title {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 28px;
+    text-align: center;
+    color: #f3c086;
+    font-weight: bold;
+    padding-top: 75px;
+}
+
+
+#news-title {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 28px;
+    text-align: center;
+    color: #fdf0d5;
+    font-weight: bold;
+    padding-top: 75px;
+    padding-bottom: 55px;
+}
+#about-title {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 28px;
+    text-align: center;
+    color: #c97e81;
+    font-weight: bold;
+    padding-top: 75px;
+    padding-bottom: 5px;
+}
+
+/*news*/
+#news {
     text-align: center;
     background-position: center; 
-    height: 1000px;
     width: auto;
     background-size: cover;
     background-attachment: fixed;
-}
+  }
 
-body {
-    background-image: url('../images/toilet-paper-background.jpg')
+.container {
+    padding: 20px 0
 }
-
-#pac-input {
-    border-style: none;
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
+    float: left; 
 }
-
-#anchor2 {
-    background-color: bisque;
-    height: 1000px;
+.main_heading {
+    margin: 10px 0 30px;
+}
+.callout {
+    margin-bottom: 40px;
+}
+select {
+    text-transform:capitalize;
+}
+.loader {
     text-align: center;
+    padding: 40px;
+}
+.uppercase {
+    text-transform: uppercase;
 }
 
-#mock {
-    text-align: center;
-    margin-top: 50px;
-    display: inline-block;
-    height: 500px;
-    width: auto;
+.find {
+    padding-top: 55px;
+}
+
+.find-home {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.reading {
+    padding-top: 55px;
+}
+
+
+#button-find {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    border-width: 3px;
+    color: #fdfd97;
+}
+
+#button-read {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    border-width: 3px;
+    color: #f3c086;
 }
 
 #button-about {
-    border-style: none;
-    font-size: 20pt;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    border-width: 3px;
+    color: #fdf0d5 ;
+}
+#button-home {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    border-width: 3px;
+    color: #c97e81;
+}
+
+#stories {
     color: white;
-    background: royalblue;
 }
 
-#button-addon2 {
-    font-size: 20px;
+.button {
+    background-color: #fdf0d5 !important;
+    color: #323133 !important;
 }
 
-#plunger {
-    width: 20px;
-    max-width: 100%;
-    height: auto;
+.button:focus, .button:hover {
+    background-color:white !important; 
+
 }
 
-nav {
-    background-color: royalblue;
-    color:white;
+.callout.secondary {
+    background-color: transparent !important;
+    color: white !important;
+    font-family: 'Roboto', sans-serif !important;
 }
 
-a {
+
+/*form*/
+
+#form {
+    font-family: 'Homemade Apple', cursive !important;
+    font-size: 18px;
+    text-align: center;
+    color: #c97e81;
+    font-weight: bold;
+    padding-top: 75px;
+    padding-bottom: 55px;
+}
+
+#sign-up {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 28px;
+    text-align: center;
+    color: #c97e81;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+/*bio*/
+
+
+#bio {
+    height: 215px;
+    width: auto;
+    padding-bottom: 15px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+#names {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 28px;
+    text-align: center;
     color: white;
-    font-size: 15pt;
+    font-weight: bold;
+    padding-bottom: 5px;
 }
 
-.navbar-brand {
-    font-size: 25pt;
-    font-family: 'Concert One', cursive;
+#stats{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
+#card {
+    text-align: center;
+}
 
-    /* #fly { */
-    
-        
-         /* * Make the initial position to be the center of the circle you want this
-         * object follow. */
-         
-         /* width: 50px;
-         height:50px;
-         background-image: url('../images/fly.png');
-         background-repeat: no-repeat;
-         position: absolute;
-        left: 755px;
-        top: 343px;  */
-    
-        
-         /* * Sets up the animation duration, timing-function (or easing)
-         * and iteration-count. Ensure you use the appropriate vendor-specific 
-         * prefixes as well as the official syntax for now. Remember, tools like 
-         * CSS Please are your friends! */
-         
-        /* -webkit-animation: myOrbit 4s linear infinite; Chrome, Safari 5  */
-           /* -moz-animation: myOrbit 4s linear infinite; Firefox 5-15 */
-             /* -o-animation: myOrbit 4s linear infinite; Opera 12+ */
-                /* animation: myOrbit 4s linear infinite; /*Chrome, Firefox 16+,   */
-                                                          /* IE 10+, Safari 5 */ 
-         
-        
-        
-    /* }  */
-    
-    
-     /* * Set up the keyframes to actually describe the begining and end states of 
-     * the animation.  The browser will interpolate all the frames between these 
-     * points.  Again, remember your vendor-specific prefixes for now! */
-     
-    /* @-webkit-keyframes myOrbit {
-        from { ?-webkit-transform: rotate(0deg) translateX(150px) rotate(0deg); }
-        to   { -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
-    }
-    
-    @-moz-keyframes myOrbit {
-        from { -moz-transform: rotate(0deg) translateX(150px) rotate(0deg); }
-        to   { -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
-    }
-    
-    @-o-keyframes myOrbit {
-        from { -o-transform: rotate(0deg) translateX(150px) rotate(0deg); }
-        to   { -o-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
-    }
-    
-    @keyframes myOrbit {
-        from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
-        to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
-    }  */
+.card-form {
+    display: inline-block;
+    height: 100%;
+    width: auto;
+}
