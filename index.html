@@ -2,221 +2,232 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!--Responsive meta tag-->
+  <!--Responsive meta tag-->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project-1</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project-1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--Link to Reset Stylesheet CSS-->
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+  <!--Link to Reset Stylesheet CSS-->
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
 
-  <!--Link to jquery--> 
-    <script defer src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
+  <!--Link to jquery-->
+  <script defer src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
 
-         <!--Link to Javascript Stylesheet JS-->
-    <script defer src="assets/javascript/app.js"></script>
-    <script defer src="assets/javascript/firebase.js"></script>
+  <!--Link to Javascript Stylesheet JS-->
+  <script defer src="assets/javascript/app.js"></script>
+  <script defer src="assets/javascript/firebase.js"></script>
 
-    <!--Link to Bootstrap-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-
-
-        <!--Nav bar links-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <!--Link to Bootstrap-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
 
 
-    <!-- Load icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Nav bar links-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
-    <!--Link to Stylesheet CSS-->
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 
-    <!--Link to Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Roboto" rel="stylesheet">
-    
-    <!--Link to AJAX-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css">
+  <!-- Load icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--Link to Stylesheet CSS-->
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+  <!--Link to Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Roboto" rel="stylesheet">
+
+  <!--Link to AJAX-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css">
 </head>
 
 <body>
 
-  
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <a class="navbar-brand" href="#anchor4">help</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#anchor1" id="button-find-2">The Crap Map</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#anchor2">"Reading Material"</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#anchor3">About</a>
-            </li>    
-          </ul>
-        </div>  
-      </nav>
-      <br>
 
-    <div class="container-fluid" id="anchor4">
-
-        <div id="logo"><img src="assets/images/pee.png" id="help"></div>
-        <br>
-        <p>
-            <span id="quote">K<span id="no">no</span>w <span id="where">where</span>  to go.</span>
-        </p>
-        <div class="find" id="scroll"><a href="#anchor1" class="scrollLink">
-                <button class="btn btn-outline-light" type="button" id="button-find">Restrooms
-                    Near Me <i class="fa fa-search"></i></button>
-            </a></div>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#anchor4">help</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#anchor1" id="button-find-2">The Crap Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#anchor2">"Reading Material"</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#anchor3">About</a>
+        </li>
+      </ul>
     </div>
+  </nav>
+  <br>
 
+  <div class="container-fluid" id="anchor4">
+
+    <div id="logo"><img src="assets/images/pee.png" id="help"></div>
+    <br>
+    <p>
+      <span id="quote">K<span id="no">no</span>w <span id="where">where</span> to go.</span>
+    </p>
+    <div class="find" id="scroll"><a href="#anchor1" class="scrollLink">
+        <button class="btn btn-outline-light" type="button" id="button-find">Restrooms
+          Near Me <i class="fa fa-search"></i></button>
+      </a></div>
+  </div>
+
+  </div>
+
+  <div class="container-fluid" id="anchor1">
+    <h3 class="text-center" id="map-title">The Crap Map</h3>
+
+    <!--Map-->
+
+    <div id="map" style="width:100%;">
+      <!--<input id="pac-input" class="controls" type="text">-->
     </div>
+    <div class="reading" id="scroll"><a href="#anchor2" class="scrollLink"><button class="btn btn-outline-light" type="button"
+          id="button-read">"Reading Material"</button></a></div>
 
-    <div class="container-fluid" id="anchor1">
-            <h3 class="text-center" id="map-title">The Crap Map</h3>
+  </div>
 
-            <!--Map-->
+  </div>
 
-        <div id="map" style="width:100%;"><!--<input id="pac-input" class="controls" type="text">--></div>
-        <div class="reading" id="scroll"><a href="#anchor2" class="scrollLink"><button class="btn btn-outline-light" type="button" id="button-read">"Reading Material"</button></a></div>
-
-    </div>
-
-    </div>
-
-    <div class="container-fluid" id="anchor2">
+  <div class="container-fluid" id="anchor2">
 
 
-        <div id="news">
-                <div class="container" id="app">
-                        <h3 class="text-center" id="news-title">"Reading Material"</h3>
-                
-                        <section class="callout secondary">
-                            <h5 class="text-center">Filter by Category</h5>
-                            <br>
-                            <form>
-                                <div class="row">
-                                    <div class="large-6 columns">
-                                        <select v-model="section">
-                                            <option v-for="section in sections" :value="section">{{ section }}</option>
-                                        </select>
-                                    </div>
-                                    <div class="medium-6 columns">
-                                        <a @click="getPosts(section)" class="button expanded" id="button-retrieve">Retrieve</a>
-                                    </div>
-                                </div>
-                            </form>
-                        </section>
-                
-                        <h5 id="stories" class="text-center uppercase" v-if="!loading">{{ title }}</b></h5>
-                        <br>
-                        <div v-if="loading" class="loader"><img src="http://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.16.1/images/loader-large.gif" alt="loader"></div>
-                
-                        <news-list v-if="!loading" :results="results"></news-list>
-                    </div>
-        </div>
-        <div class="reading" id="scroll"><a href="#anchor3" class="scrollLink"><button class="btn btn-outline-light" type="button" id="button-about">About the help PEEple</button></a></div>
-    </div>
+    <div id="news">
+      <div class="container" id="app">
+        <h3 class="text-center" id="news-title">"Reading Material"</h3>
 
-    <div class="container-fluid" id="anchor3">
-      <br>
-            <h3 class="text-center" id="about-title">We are here to... </h3>
-
-            <div id="logo2"><img src="assets/images/pee2.png" id="help2"></div>
-
-            <!--Bios-->
-
-            <div class="container">
-                <div class="row" id="names">
-                  <div class="col-sm">
-                      <div id="igor"><img src="assets/images/igor.png" id="bio"></div>
-                    Igor
-                  </div>
-                  <div class="col-sm">
-                      <div id="kelly"><img src="assets/images/kelly.png" id="bio"></div>
-                    Kelly
-                  </div>
-                  <div class="col-sm">
-                      <div id="james"><img src="assets/images/james.png" id="bio"></div>
-                    James
-                  </div>
-                </div>
+        <section class="callout secondary">
+          <h5 class="text-center">Filter by Category</h5>
+          <br>
+          <form>
+            <div class="row">
+              <div class="large-6 columns">
+                <select v-model="section">
+                  <option v-for="section in sections" :value="section">{{ section }}</option>
+                </select>
               </div>
+              <div class="medium-6 columns">
+                <a @click="getPosts(section)" class="button expanded" id="button-retrieve">Retrieve</a>
+              </div>
+            </div>
+          </form>
+        </section>
 
-              <!--Short description about the app-->
+        <h5 id="stories" class="text-center uppercase" v-if="!loading">{{ title }}</b></h5>
+        <br>
+        <div v-if="loading" class="loader"><img src="http://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.16.1/images/loader-large.gif"
+            alt="loader"></div>
 
-              <div class="container" id="stats">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
+        <news-list v-if="!loading" :results="results"></news-list>
+      </div>
+    </div>
+    <div class="reading" id="scroll"><a href="#anchor3" class="scrollLink"><button class="btn btn-outline-light" type="button"
+          id="button-about">About the help PEEple</button></a></div>
+  </div>
 
-                <!--Form-->
-                <div id="form"><h1 id="sign-up">Sign-Up Today!</h1></div>
-                      <div class="row">
-                  
-                        <!-- Sign-Up Card-->
-                        <div class="col-lg-12" id="card-form">
-                          <div class="card">
-                            <div class="card-header">
-                              New Member Sign-Up
-                            </div>
-                            <div class="card-body">
-                  
-                              <!-- Sign-up Form (note the various input "types")-->
-                              <form role="form">
-                                <div class="form-group">
-                                  <label for="name-input">Name:</label>
-                                  <input class="form-control" id="name-input" type="text">
-                                </div>
-                                <div class="form-group">
-                                  <label for="email-input">Email:</label>
-                                  <input class="form-control" id="email-input" type="email">
-                                </div>
-                                <div class="form-group">
-                                  <label for="age-input">Age:</label>
-                                  <input class="form-control" id="age-input" type="number">
-                                </div>
-                                <div class="form-group">
-                                  <label for="comment-input">How did you hear about us?</label>
-                                  <textarea class="form-control" id="comment-input" rows="5"></textarea>
-                                </div>
-                                <button class="btn btn-default" id="add-user" type="submit">Submit</button>
-                              </form>
-                            </div>
-                          </div>
-                      </div>
-                
+  <div class="container-fluid" id="anchor3">
+    <br>
+    <h3 class="text-center" id="about-title">We are here to... </h3>
+
+    <div id="logo2"><img src="assets/images/pee2.png" id="help2"></div>
+
+    <!--Bios-->
+
+    <div class="container">
+      <div class="row" id="names">
+        <div class="col-sm">
+          <div id="igor"><img src="assets/images/igor.png" id="bio"></div>
+          Igor
         </div>
-         <!--Home button-->
-
-         <div class="find-home" id="scroll"><a href="#anchor4" class="scrollLink">
-            <button class="btn btn-outline-light" type="button" id="button-home">Home</button>
-        </a></div>
-
+        <div class="col-sm">
+          <div id="kelly"><img src="assets/images/kelly.png" id="bio"></div>
+          Kelly
+        </div>
+        <div class="col-sm">
+          <div id="james"><img src="assets/images/james.png" id="bio"></div>
+          James
+        </div>
+      </div>
     </div>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBi0suApwCPQd0gmmSeEVsfd7RVXaiIthM&libraries=places&callback=initAutocomplete"
+    <!--Short description about the app-->
+
+    <div class="container" id="stats">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.</p>
+    </div>
+
+    <!--Form-->
+    <div id="form">
+      <h1 id="sign-up">Sign-Up Today!</h1>
+    </div>
+    <div class="row">
+
+      <!-- Sign-Up Card-->
+      <div class="col-lg-12" id="card-form">
+        <div class="card">
+          <div class="card-header">
+            New Member Sign-Up
+          </div>
+          <div class="card-body">
+
+            <!-- Sign-up Form (note the various input "types")-->
+            <form role="form">
+              <div class="form-group">
+                <label for="name-input">Name:</label>
+                <input class="form-control" id="name-input" type="text">
+              </div>
+              <div class="form-group">
+                <label for="email-input">Email:</label>
+                <input class="form-control" id="email-input" type="email">
+              </div>
+              <div class="form-group">
+                <label for="age-input">Age:</label>
+                <input class="form-control" id="age-input" type="number">
+              </div>
+              <div class="form-group">
+                <label for="comment-input">How did you hear about us?</label>
+                <textarea class="form-control" id="comment-input" rows="5"></textarea>
+              </div>
+              <button class="btn btn-default" id="add-user" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--Home button-->
+
+    <div class="find-home" id="scroll"><a href="#anchor4" class="scrollLink">
+        <button class="btn btn-outline-light" type="button" id="button-home">Home</button>
+      </a></div>
+
+  </div>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBi0suApwCPQd0gmmSeEVsfd7RVXaiIthM&libraries=places&callback=initAutocomplete"
     async defer></script>
 
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="https://unpkg.com/vue"></script>
-    <script src="app.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="app.js"></script>
 
-    <!--firebase-->
-    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+  <!--firebase-->
+  <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
 
 
 </body>
