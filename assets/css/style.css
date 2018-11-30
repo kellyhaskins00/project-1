@@ -75,9 +75,10 @@
     width: auto;
 }
 
-p{
+p {
     text-align: center;
 }
+
 #where {
     font-family: 'Homemade Apple', cursive;
     font-size: 28px;
@@ -121,7 +122,6 @@ p{
     padding-top: 75px;
 }
 
-
 #news-title {
     font-family: 'Homemade Apple', cursive;
     font-size: 28px;
@@ -131,6 +131,7 @@ p{
     padding-top: 75px;
     padding-bottom: 55px;
 }
+
 #about-title {
     font-family: 'Homemade Apple', cursive;
     font-size: 28px;
@@ -153,22 +154,28 @@ p{
 .container {
     padding: 20px 0
 }
+
 .column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
     float: left; 
 }
+
 .main_heading {
     margin: 10px 0 30px;
 }
+
 .callout {
     margin-bottom: 40px;
 }
+
 select {
     text-transform:capitalize;
 }
+
 .loader {
     text-align: center;
     padding: 40px;
 }
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -225,7 +232,6 @@ select {
 
 .button:focus, .button:hover {
     background-color:white !important; 
-
 }
 
 .callout.secondary {
@@ -233,7 +239,6 @@ select {
     color: white !important;
     font-family: 'Roboto', sans-serif !important;
 }
-
 
 /*form*/
 
@@ -257,7 +262,6 @@ select {
 }
 
 /*bio*/
-
 
 #bio {
     height: 215px;
