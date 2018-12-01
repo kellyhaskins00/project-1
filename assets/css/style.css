@@ -19,8 +19,7 @@
 
 /* Change background on mouse-over */
 .navbar a:hover {
-    background: #ddd;
-    color: black;
+    color: #fdded9;
 }
 #anchor4 {
     background-color: #323133;
@@ -55,14 +54,13 @@
 }
 
 #logo {
-    padding-top: 175px;
+    padding-top: 155px;
     text-align: center;
 }
 
 #logo2 {
     padding-top: 0px;
     text-align: center;
-    padding-bottom: 55px;
 }
 
 #help {
@@ -106,6 +104,7 @@ p {
 #scroll {
     text-align: center;
 }
+
 #map {
     margin-top: 55px;
     height: 450px;
@@ -119,7 +118,7 @@ p {
     text-align: center;
     color: #f3c086;
     font-weight: bold;
-    padding-top: 75px;
+    padding-top: 155px;
 }
 
 #news-title {
@@ -128,7 +127,7 @@ p {
     text-align: center;
     color: #fdf0d5;
     font-weight: bold;
-    padding-top: 75px;
+    padding-top: 155px;
     padding-bottom: 55px;
 }
 
@@ -138,8 +137,7 @@ p {
     text-align: center;
     color: #c97e81;
     font-weight: bold;
-    padding-top: 75px;
-    padding-bottom: 5px;
+    padding-top: 155px;
 }
 
 /*news*/
@@ -231,7 +229,7 @@ select {
 }
 
 .button:focus, .button:hover {
-    background-color:white !important; 
+    background-color: transparent !important;
 }
 
 .callout.secondary {
@@ -264,9 +262,10 @@ select {
 /*bio*/
 
 #bio {
-    height: 215px;
+    height: 255px;
     width: auto;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
+    padding-top: 25px;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
@@ -294,4 +293,11 @@ select {
     display: inline-block;
     height: 100%;
     width: auto;
+}
+
+#info {
+    padding-top: 55px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
