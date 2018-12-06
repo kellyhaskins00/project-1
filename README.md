@@ -1,3 +1,2 @@
 # project-1
-adding the yelp api to our app
-we are trying to figure out git
+https://kellyhaskins00.github.io/project-1/
